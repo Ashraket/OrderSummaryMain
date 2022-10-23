@@ -1,0 +1,134 @@
+$primarycolourlight:#E0E8FF;
+$primarycolordrk:hsl(245, 75%, 52%);
+$neutrallightcolor:hsl(225, 100%, 98%);
+$neutralcolordark:hsl(224, 23%, 55%);
+$neutralcolorverydark:hsl(223, 47%, 23%);
+$fontsize:16px;
+$fontfamily:Red Hat Display ;
+$weight1:500; 
+$weight2:700; 
+$weight3:900; 
+
+
+
+
+*{
+    box-sizing: border-box  ;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("pattern-background-desktop.svg");
+    line-height: 1.6;
+    font-family: $fontfamily;
+    font-weight: 600;
+    background-color: $primarycolourlight;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#showcase{
+    width: 410px;
+    height: 620px;
+    background-color:white;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    margin-top:100px ;
+    justify-content: center;
+    padding: 0px;
+    #headi{
+        width:fit-content;
+        height: 200px;
+        border-radius: 25px 25px 0px 0px;    
+
+    }
+    h2{
+        font: $fontfamily;
+        text-align: center;
+        padding: 30px;
+        font-weight: 900;
+        color: $neutralcolorverydark;
+    }
+    p{
+        padding: 25px;
+        font-weight: 500;
+        font-size: small;
+        color: #c3c3c3;
+    }
+   #smallcont{
+        background-color:$neutrallightcolor ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 5px;
+        height:70px;
+
+    #icon{
+        width: 40px;
+        height: 40px;
+    }
+    .h5{
+        padding: 0px;
+        margin: 20px;
+        h5{
+            padding: 0px;
+            font-weight: 900;
+            font-size: medium;
+        }
+        p{
+            padding: 0px;
+            color: #c3c3c3;
+        }
+        a{
+            font-weight: 500;
+            color:$neutralcolordark;
+            text-decoration: underline;
+            font-size: small;
+            &:hover{
+                text-decoration: none;
+                
+        }
+        }
+
+    }
+
+
+
+   
+   }
+   button{
+    background-color: $primarycolordrk;
+    width: 348px;
+    height:55px;
+    border-color:rgba(0,0,0,0.2) ;
+    margin-top:30px ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: $fontfamily;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+button:hover{
+    background-color: $neutralcolordark;
+}
+
+
+ .cancel{
+    margin-top: 40px;
+    padding-top: 60px;
+    font-size: medium;
+    cursor: pointer;
+    color: #9d9d9d;
+
+ }  
+ .cancel:hover{
+    color: $neutralcolorverydark;
+ }
+    
+}

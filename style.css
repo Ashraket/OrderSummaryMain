@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("pattern-background-desktop.svg");
+  line-height: 1.6;
+  font-family: Red Hat Display;
+  font-weight: 600;
+  background-color: #E0E8FF;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#showcase {
+  width: 410px;
+  height: 620px;
+  background-color: white;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 0px;
+}
+#showcase #headi {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 200px;
+  border-radius: 25px 25px 0px 0px;
+}
+#showcase h2 {
+  font: Red Hat Display;
+  text-align: center;
+  padding: 30px;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+#showcase p {
+  padding: 25px;
+  font-weight: 500;
+  font-size: small;
+  color: #c3c3c3;
+}
+#showcase #smallcont {
+  background-color: hsl(225deg, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5px;
+  height: 70px;
+}
+#showcase #smallcont #icon {
+  width: 40px;
+  height: 40px;
+}
+#showcase #smallcont .h5 {
+  padding: 0px;
+  margin: 20px;
+}
+#showcase #smallcont .h5 h5 {
+  padding: 0px;
+  font-weight: 900;
+  font-size: medium;
+}
+#showcase #smallcont .h5 p {
+  padding: 0px;
+  color: #c3c3c3;
+}
+#showcase #smallcont .h5 a {
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: underline;
+  font-size: small;
+}
+#showcase #smallcont .h5 a:hover {
+  text-decoration: none;
+}
+#showcase button {
+  background-color: hsl(245deg, 75%, 52%);
+  width: 348px;
+  height: 55px;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Red Hat Display;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+#showcase button:hover {
+  background-color: hsl(224deg, 23%, 55%);
+}
+#showcase .cancel {
+  margin-top: 40px;
+  padding-top: 60px;
+  font-size: medium;
+  cursor: pointer;
+  color: #9d9d9d;
+}
+#showcase .cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+}/*# sourceMappingURL=style.css.map */
